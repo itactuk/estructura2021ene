@@ -1,5 +1,5 @@
 import unittest
-from codigo_1python.clase02_intro_python import fuerza
+from . import fuerza
 
 
 class MyTestCase(unittest.TestCase):

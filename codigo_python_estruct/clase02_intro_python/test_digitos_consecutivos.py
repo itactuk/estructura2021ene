@@ -1,5 +1,5 @@
 import unittest
-from codigo_1python.clase02_intro_python import digitos_consecutivos as p
+from clase02_intro_python import digitos_consecutivos as p
 
 
 class MyTestCase(unittest.TestCase):
