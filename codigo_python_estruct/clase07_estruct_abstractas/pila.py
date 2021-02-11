@@ -1,12 +1,12 @@
 from collections import deque
 
-cola = deque()
+pila = deque()
 
-cola.append("Ricardo")
-cola.append("Enmanuel")
-cola.append("Pedro")
+pila.append("Ricardo")
+pila.append("Enmanuel")
+pila.append("Pedro")
 
-print(cola.pop())
+print(pila.pop())
 
 
 
