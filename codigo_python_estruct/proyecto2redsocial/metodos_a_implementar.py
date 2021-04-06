@@ -48,11 +48,10 @@ def distancia_de_amigos(id_persona1: int, id_persona2: int) -> int:
     """
 
 
-def tamano_red_de_familia(id_persona1: int, id_persona2: int, distancia_maxima: int) -> int:
+def tamano_red_de_familia(id_persona, distancia_maxima: int) -> int:
     """
     Cuenta la cantidad de miembros de la familia que tengan una distancia menor igual a distancia_maxima
-    :param id_persona1:
-    :param id_persona2:
+    :param id_persona:
     :param distancia_maxima: la cantidad de nodos que se deben brincar para llegar a otro nodo
     :return:
     """
